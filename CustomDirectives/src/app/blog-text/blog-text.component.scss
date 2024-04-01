@@ -1,0 +1,80 @@
+.blog
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header
+{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar
+{
+    margin-left: 300px;
+   
+}
+
+h1
+{
+    margin-top: 20px;
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    li{
+        padding-right: 30px;
+        color: blue;
+        font-weight: bold;
+    }
+}
+
+hr
+{
+    color: green;
+}
+
+h2
+{
+    margin-left: 100px;
+}
+
+h3
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#desc
+{
+    margin-top: 40px;
+}
+
+label
+{
+    margin-left: 460px;
+    font-weight: bold;
+}
+
+button
+{
+    margin-left: 500px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    background-color: darkgreen;
+    border: none;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    height: 30px;
+}
+
+h4
+{
+    text-align: center;
+}

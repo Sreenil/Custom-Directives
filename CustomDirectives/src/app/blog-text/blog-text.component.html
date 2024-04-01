@@ -1,0 +1,32 @@
+<div class="conatiner">
+    <div class="header">
+    <h1 appDirective="green">Travel Blog</h1> 
+   </div>
+   <div class="navbar" appNavbar>
+    <ul>
+        <li>ABOUT ME</li>
+        <li>MY TRAVELS</li>
+    </ul>
+   </div>
+   <hr>
+  
+   <div class="blog">
+    <h3 appDirective="red">VAGAMON</h3>
+    
+    <p id="desc">
+        On my first trip to Vagamon was  wonderful experience,Vagamon makes for a great place to indulge in some hardcore adventure. There are 3 routes for off-roading: one that takes you through the grass meadows (Uluppunni), another one that takes you through the thick pine forests, and a third one, which is strictly for professional off-roaders, I returned to experience slow travel for the first time.       
+        </p>
+        
+   </div>
+   <label for="" appDirective="blue">Click on this button to know about Author</label>
+  <br>
+   <button  (click)="show()" >Click Me!</button>
+</div>
+<ng-container *ngIf="showDetails">
+
+    <h4 appDirective="red">Name:Sreenil A</h4>
+    <h4 appDirective="red">Place:Malappuram</h4>
+    <h4 appDirective="red">Age:27</h4>
+    <h4 appDirective="red">Hobbies:Traveling,Games,Music</h4>
+
+</ng-container>
